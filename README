@@ -1,0 +1,24 @@
+cucumber-jvm-maven is a project for testing command line application for converting Roman Numerals to numbers.
+As testing framework cucumber-jvm is used.
+
+
+ Prerequisites :    
+    Java JDK should be installed (version 1.5 or above )
+    Maven latest build should be downloaded and installed 
+    (see http://maven.apache.org/download.html for instruction)
+
+  To run test:
+    Download the project
+    From command prompt change directory to cucumber-jvm-maven (where pom.xml file is located)
+    execute command: mvn test
+    Also you can run test from Eclipse IDE : Run As -> Maven test
+
+    test results you can see in folder: ...cucumber-jvm-maven\target\surefire-reports
+
+  Tested with:
+  Apache Maven 3.0.4 (r1232337; 2012-01-17 12:44:56+0400)
+  Maven home: C:\apache-maven-3.0.4
+  Java version: 1.7.0_05, vendor: Oracle Corporation
+  Default locale: ru_RU, platform encoding: Cp1251
+  OS name: "windows 7", version: "6.1", arch: "amd64", family: "windows"
+ 
